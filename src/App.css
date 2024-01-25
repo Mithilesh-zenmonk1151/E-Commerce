@@ -1,11 +1,22 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
- min-height: screen;
- width: 60vw;
+ /* min-height: screen; */
+ /* width: 60vw; */
+ width: 100vw;
  display: flex;
- flex-direction: col;
+ flex-direction: column;
  background-color: #ffffff;
+ justify-content: space-between;
+ margin: 0;
+ padding: 0;
 }
 
 .App-logo {

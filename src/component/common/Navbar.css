@@ -1,15 +1,19 @@
 .black-box{
-    display: flex;
-    width: 1960px;
-    height: 48px;
+    /* display: flex; */
+    /* height: 48px; */
      /* padding: 12px 136px 12px 445px;  */
     
-    align-items: center;  
-     flex-shrink: 0; 
+    /* align-items: center;   */
+     /* flex-shrink: 0;  */
     background:  #000;
     /* text-align: center; */
-    justify-content: center;
+    /* justify-content: center; */
     border-bottom: 5px solid black;
+    width: 100%;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 10px 0px;
+    
   
 }
 .para{
@@ -18,6 +22,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    margin-right: 10px;
 }
 .shop-now{
     text-align: center;
@@ -36,15 +41,19 @@
 
     .middle-nav{
         color: black;
+       
     }
     .nav-bar{
-        display: flex; 
+        display: flex;  
         
+        /* width: 100%;  */
+        /* justify-content: space-around; */
+        align-items: center;  
+        /* padding-top: 20px; */
+        
+        /* justify-content: space-around;  */
         justify-content: space-around;
-        align-items: center;
-        padding-top: 20px;
-        padding-right: 90px;
-        border-bottom: 1px solid rgb(36, 35, 35);
+        
     }
     .exclusive{
         font-family: 'inter'; 
@@ -67,17 +76,19 @@
     }
     .middle-nav{
         display: flex;
-        gap: 48px;
+        gap: 70px;
         text-align: center;
        
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px; 
+        /* width: fit-content; */
+        
     }
     .search{
        
-        padding: 7px 12px 7px 20px;
+        /* padding: 7px 12px 7px 20px; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -95,7 +106,7 @@
         top: 5px;
         border: #f5f5f5;
         background: #f5f5f5;
-        margin-left: 34px;
+        margin-left: 34px; 
        
         
     }
@@ -107,8 +118,8 @@
     .right-nav{
         display: flex;
         gap: 24px;
-        position: relative;
-        margin-right: 135px;
+        /* position: relative; */
+        /* margin-right: 135px; */
     }
     .search-bar{
         width: 153px;
@@ -123,6 +134,7 @@
         border: #f5f5f5;
         background: #f5f5f5;
        bottom: 4px;
+       outline: none;
     }
     .heart-cart{
         display: flex;
@@ -138,4 +150,10 @@
         height: 32px;
         width: 32px;
 
+    }
+    .lower-line{
+        background: #000;
+        height: 1px;
+        width:auto;
+        opacity: 0.3;
     }
